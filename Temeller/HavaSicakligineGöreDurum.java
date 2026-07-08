@@ -1,6 +1,6 @@
 package Temeller;
 
-public class HavaSicakligineGöreDurum
+public class HavaSicakligineGoreDurum
 {
      public static void main(String[] args) {
          double sicaklik = 24.7;
