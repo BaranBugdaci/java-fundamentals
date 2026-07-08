@@ -12,7 +12,7 @@ public class HavaSicakligineGöreDurum
          else if( sicaklik>25 && sicaklik < 35)
              System.out.println("Akşam yürüyüşü sarardı");
          else if( sicaklik > 15 && sicaklik <25)
-             System.out.println("Sabah Serin bir yürüyüşü manyak sarar ");
+             System.out.println("Sabah Serin bir yürüyüş manyak sarar ");
          else if(sicaklik>0 && sicaklik<15)
              System.out.println("Güzel sıcak bir yerde kahve içme işi fena akar");
          }
