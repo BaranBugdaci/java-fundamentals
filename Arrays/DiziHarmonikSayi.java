@@ -1,6 +1,6 @@
 package Arrays;
 
-public class DiziOrtalamaHesaplama
+public class DiziHarmonikSayi
 {
     public static void main(String[] args) {
 
