@@ -54,5 +54,5 @@ public class Employee
         System.out.println("Vergi ve Bonuslar ile birlikte maaş: " + (this.salary - this.tax() + this.bonus()));
         System.out.println("Toplam Maaş: " + (this.salary + this.raiseSalary() + this.bonus() - tax()));
     }
-    
+
 }
