@@ -1,6 +1,6 @@
 package Java102.Inheritance;
 
-public class Academician extends Worker
+public abstract class  Academician extends Worker
 {
     private String department;
     private String degrees;
@@ -26,9 +26,10 @@ public class Academician extends Worker
         this.degrees = degrees;
     }
 
-    public void entryLesson(){
-        System.out.println(this.getNameSurname() + " entered the Lesson");
-    }
+    public abstract void entryLesson(String theTime);
+
+
+
 }
 
 

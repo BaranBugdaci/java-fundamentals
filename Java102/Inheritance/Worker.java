@@ -1,6 +1,6 @@
 package Java102.Inheritance;
 
-public class Worker
+public abstract class Worker
 {
     private String nameSurname;
     private String eMail;

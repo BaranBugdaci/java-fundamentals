@@ -24,4 +24,9 @@ public class Lecturer extends Academician
     public void makeTest(){
         System.out.println(this.getNameSurname() + " Made a Test");
     }
+
+    @Override
+    public void entryLesson(String time){
+        System.out.println(this.getNameSurname()  + " Entered in " + time);
+    }
 }

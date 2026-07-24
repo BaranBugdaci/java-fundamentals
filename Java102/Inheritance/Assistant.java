@@ -20,4 +20,9 @@ public class Assistant extends Academician
     public void makeQuiz(){
         System.out.println(this.getNameSurname() + " Made a Quiz");
     }
+
+    @Override
+    public void entryLesson(String time){
+        System.out.println(this.getNameSurname()  + " Entered in " + time);
+    }
 }
